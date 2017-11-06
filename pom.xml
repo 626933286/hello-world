@@ -1,7 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
+  <!-- spring boot基本环境 -->  
+  	<parent>  
+        <groupId>org.springframework.boot</groupId>  
+        <artifactId>spring-boot-starter-parent</artifactId>  
+        <version>1.5.6.RELEASE</version>  
+  	</parent> 
   <groupId>spring.boot</groupId>
   <artifactId>hello-world</artifactId>
   <version>0.0.1-SNAPSHOT</version>
@@ -10,16 +15,103 @@
   <name>hello-world</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+   <properties>
+        <!-- Dependency Versions -->
+        <commons-lang3.version>3.5</commons-lang3.version>
+        <guava.version>21.0</guava.version>
+        <jsoup.version>1.10.2</jsoup.version>
+        <jquery.version>3.1.1-1</jquery.version>
+        <bootstrap.version>3.3.7-1</bootstrap.version>
+        <!-- Project configuration -->
+        <java.version>1.8</java.version>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ssa</maven.build.timestamp.format>
+        <start-class>spring.boot.hello_world.Application</start-class>
+        <skipTests>true</skipTests>
+    </properties>
 
-  <dependencies>
+ <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+  		<groupId>org.apache.zookeeper</groupId>
+  		<artifactId>zookeeper</artifactId>
+  		<version>3.4.6</version>
+  		<exclusions>
+  			<exclusion>
+  				<groupId>log4j</groupId>
+  				<artifactId>log4j</artifactId>
+  			</exclusion>
+  			<exclusion>
+  				<groupId>org.slf4j</groupId>
+  				<artifactId>slf4j-log4j12</artifactId>
+  			</exclusion>
+  		</exclusions>
+    </dependency>
+    <!--spring boot应用基本环境配置 -->  
+       <dependency>  
+           <groupId>org.springframework.boot</groupId>  
+           <artifactId>spring-boot-starter-web</artifactId>  
+       </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-cache</artifactId>
+		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+       <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        
+       <dependency>
+            <groupId>org.thymeleaf.extras</groupId>
+            <artifactId>thymeleaf-extras-springsecurity4</artifactId>
+        </dependency>
+       <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>21.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+        </dependency>
   </dependencies>
+  
+  <build>
+	<!--maven的插件 -->
+	<plugins>
+		<plugin>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+		</plugin>
+	</plugins>
+
+	<!-- 配置java版本 不配置的话默认父类配置的是1.6 -->
+	<pluginManagement>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</pluginManagement>
+</build>  
 </project>

@@ -7,12 +7,12 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration
-public class WebMvcConfig extends WebMvcConfigurerAdapter{
-	Logger logger = LoggerFactory.getLogger(this.getClass());
-	@Override
-	public void addViewControllers(ViewControllerRegistry registry) {
-		logger.info("开始执行mvcConfig");
+public class WebMvcConfig extends WebMvcConfigurerAdapter {
+    Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        logger.info("开始执行mvcConfig");
         registry.addViewController("/login").setViewName("login");
     }
-
 }

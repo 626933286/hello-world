@@ -18,6 +18,13 @@ public class Application {
         new SpringApplicationBuilder(Application.class).bannerMode(Banner.Mode.CONSOLE).run(args);
     }
 
+    /**
+     * <p>配置重定向</p> 
+     * @author ldg123456
+     * @date 2017年11月15日 下午10:35:21
+     * @return
+     * @see
+     */
     @Bean
     public EmbeddedServletContainerFactory servletContainer() {
         TomcatEmbeddedServletContainerFactory tomcat = new TomcatEmbeddedServletContainerFactory() {

@@ -8,28 +8,28 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
-
 import spring.boot.hello_world.mvc.service.CustomUserService;
 
 @Configuration
-public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
-	
-	Logger logger = LoggerFactory.getLogger(this.getClass());
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-	@Bean
-	UserDetailsService customUserService() {
-		return new CustomUserService();
-	}
+    Logger logger = LoggerFactory.getLogger(this.getClass());
 
-	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.userDetailsService(customUserService());
-	}
 
-	@Override
-	protected void configure(HttpSecurity http) throws Exception {
-		logger.info("开始执行WebSecurityConfig");
-		http.authorizeRequests().anyRequest().authenticated().and().formLogin().loginPage("/login")
-				.failureUrl("/login?error").permitAll().and().logout().permitAll();
-	}
+    @Bean
+    UserDetailsService customUserService() {
+        return new CustomUserService();
+    }
+
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(customUserService());
+    }
+
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        logger.info("开始执行WebSecurityConfig");
+        http.authorizeRequests().anyRequest().authenticated().and().formLogin().loginPage("/login")
+                .failureUrl("/login?error").permitAll().and().logout().permitAll();
+    }
 }

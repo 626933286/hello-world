@@ -16,7 +16,11 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 @Entity
 public class SysUser implements UserDetails{
-	@Id
+	/**
+     * TODO（用一句话描述这个变量表示什么）
+     */
+    private static final long serialVersionUID = 2179977087270889525L;
+    @Id
 	@GeneratedValue
 	private Long id;
     private String username;

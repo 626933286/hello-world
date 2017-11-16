@@ -2404,3 +2404,711 @@ org.thymeleaf.exceptions.TemplateProcessingException: Could not parse as express
 2017-11-16 10:01:00 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
 2017-11-16 10:01:00 [main] INFO  s.b.h.Application:57 - Started Application in 4.641 seconds (JVM running for 5.26)
 2017-11-16 10:01:08 [https-jsse-nio-1990-exec-10] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 10:26:24 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 10:26:24 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 10:00:56 CST 2017]; root of context hierarchy
+2017-11-16 10:26:24 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 10:26:24 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 10:26:36 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 7840 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 10:26:36 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 10:26:36 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 10:26:36 CST 2017]; root of context hierarchy
+2017-11-16 10:26:37 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 10:26:37 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 10:26:37 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 10:26:37 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 10:26:38 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 10:26:38 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 10:26:38 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 10:26:38 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 10:26:38 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 10:26:38 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 10:26:38 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 10:26:38 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 10:26:39 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 10:26:39 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$6e289357:15 - 开始执行mvcConfig
+2017-11-16 10:26:39 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$4de21f71:31 - 开始执行WebSecurityConfig
+2017-11-16 10:26:39 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 10:26:40 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55317c63, org.springframework.security.web.context.SecurityContextPersistenceFilter@4153a832, org.springframework.security.web.header.HeaderWriterFilter@7944c323, org.springframework.security.web.csrf.CsrfFilter@113c4ad6, org.springframework.security.web.authentication.logout.LogoutFilter@361fa478, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@62c46e53, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b8d6c66, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72a0a60d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35d81657, org.springframework.security.web.session.SessionManagementFilter@3a917017, org.springframework.security.web.access.ExceptionTranslationFilter@583030bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79b4cff]
+2017-11-16 10:26:40 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@1cfa7ee0, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@612290d, org.springframework.security.web.context.SecurityContextPersistenceFilter@174cb0d8, org.springframework.security.web.header.HeaderWriterFilter@2fccf49e, org.springframework.security.web.csrf.CsrfFilter@288b73c1, org.springframework.security.web.authentication.logout.LogoutFilter@6ec2d990, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ac406d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72646d16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57cff804, org.springframework.security.web.session.SessionManagementFilter@7abcc0da, org.springframework.security.web.access.ExceptionTranslationFilter@582ea164]
+2017-11-16 10:26:40 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 10:26:40 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 10:26:40 [main] INFO  s.b.h.Application:57 - Started Application in 4.706 seconds (JVM running for 5.477)
+2017-11-16 10:26:56 [https-jsse-nio-1990-exec-10] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 10:50:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 10:50:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 10:26:36 CST 2017]; root of context hierarchy
+2017-11-16 10:50:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 10:50:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 10:50:20 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 5684 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 10:50:20 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 10:50:20 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 10:50:20 CST 2017]; root of context hierarchy
+2017-11-16 10:50:21 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 10:50:21 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 10:50:21 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 10:50:21 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 10:50:22 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 10:50:22 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 10:50:22 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 10:50:22 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 10:50:22 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 10:50:22 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 10:50:22 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 10:50:23 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 10:50:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 10:50:24 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$cdf204ae:15 - 开始执行mvcConfig
+2017-11-16 10:50:24 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$adab90c8:31 - 开始执行WebSecurityConfig
+2017-11-16 10:50:24 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 10:50:24 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@104cfb24, org.springframework.security.web.context.SecurityContextPersistenceFilter@77e6053, org.springframework.security.web.header.HeaderWriterFilter@7b8d6c66, org.springframework.security.web.csrf.CsrfFilter@10a064bd, org.springframework.security.web.authentication.logout.LogoutFilter@2f3a8166, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@288b73c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a21cbe7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7bdb4d69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5340ccb9, org.springframework.security.web.session.SessionManagementFilter@30ed4034, org.springframework.security.web.access.ExceptionTranslationFilter@4153a832, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62c46e53]
+2017-11-16 10:50:24 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@5f911d24, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3de383f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@57cff804, org.springframework.security.web.header.HeaderWriterFilter@1cfa7ee0, org.springframework.security.web.csrf.CsrfFilter@7abcc0da, org.springframework.security.web.authentication.logout.LogoutFilter@7736c41e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f39b534, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60fbc34d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33ccead, org.springframework.security.web.session.SessionManagementFilter@612290d, org.springframework.security.web.access.ExceptionTranslationFilter@6ec2d990]
+2017-11-16 10:50:24 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 10:50:25 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 10:50:25 [main] INFO  s.b.h.Application:57 - Started Application in 4.872 seconds (JVM running for 5.467)
+2017-11-16 10:50:27 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 11:10:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 11:10:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 10:50:20 CST 2017]; root of context hierarchy
+2017-11-16 11:10:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 11:10:09 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:10:16 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 6892 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 11:10:16 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 11:10:17 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:10:17 CST 2017]; root of context hierarchy
+2017-11-16 11:10:18 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 11:10:18 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 11:10:18 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 11:10:18 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 11:10:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:10:18 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 11:10:18 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 11:10:18 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 11:10:18 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 11:10:18 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 11:10:18 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 11:10:19 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 11:10:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:10:20 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$8b041b5c:15 - 开始执行mvcConfig
+2017-11-16 11:10:20 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$6abda776:31 - 开始执行WebSecurityConfig
+2017-11-16 11:10:20 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 11:10:20 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42db955e, org.springframework.security.web.context.SecurityContextPersistenceFilter@288b73c1, org.springframework.security.web.header.HeaderWriterFilter@35d81657, org.springframework.security.web.csrf.CsrfFilter@6f2864c3, org.springframework.security.web.authentication.logout.LogoutFilter@51b59d58, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cf3a7f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5340ccb9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60fbc34d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bd2f039, org.springframework.security.web.session.SessionManagementFilter@3180aee, org.springframework.security.web.access.ExceptionTranslationFilter@62c46e53, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1760e688]
+2017-11-16 11:10:20 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@652a1a17, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20b67366, org.springframework.security.web.context.SecurityContextPersistenceFilter@7f5e9949, org.springframework.security.web.header.HeaderWriterFilter@1b10f60e, org.springframework.security.web.csrf.CsrfFilter@4fc71437, org.springframework.security.web.authentication.logout.LogoutFilter@6e355249, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@323eecf8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e02cc37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@186d6033, org.springframework.security.web.session.SessionManagementFilter@4b916cc2, org.springframework.security.web.access.ExceptionTranslationFilter@64d53f0d]
+2017-11-16 11:10:20 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 11:10:21 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 11:10:21 [main] INFO  s.b.h.Application:57 - Started Application in 4.494 seconds (JVM running for 5.064)
+2017-11-16 11:10:25 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 11:10:53 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 11:10:53 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:10:17 CST 2017]; root of context hierarchy
+2017-11-16 11:10:53 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 11:10:53 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:11:00 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 8012 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 11:11:00 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 11:11:01 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:11:01 CST 2017]; root of context hierarchy
+2017-11-16 11:11:02 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 11:11:02 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 11:11:02 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 11:11:02 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 11:11:02 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:11:02 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 11:11:02 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 11:11:02 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 11:11:02 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 11:11:02 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 11:11:02 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 11:11:03 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 11:11:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:11:04 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$78ccc0a0:15 - 开始执行mvcConfig
+2017-11-16 11:11:04 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$58864cba:31 - 开始执行WebSecurityConfig
+2017-11-16 11:11:04 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 11:11:04 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fe156f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@102ecb61, org.springframework.security.web.header.HeaderWriterFilter@20723ee, org.springframework.security.web.csrf.CsrfFilter@118e2487, org.springframework.security.web.authentication.logout.LogoutFilter@72a0a60d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d770bcd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@583030bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7097d921, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79b4cff, org.springframework.security.web.session.SessionManagementFilter@5bb39285, org.springframework.security.web.access.ExceptionTranslationFilter@22f046b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bb21063]
+2017-11-16 11:11:04 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@2bc8caa7, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@582ea164, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d94ac8a, org.springframework.security.web.header.HeaderWriterFilter@42ef5216, org.springframework.security.web.csrf.CsrfFilter@7582a16b, org.springframework.security.web.authentication.logout.LogoutFilter@5340ccb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@288b73c1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@104cfb24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fccf49e, org.springframework.security.web.session.SessionManagementFilter@3180aee, org.springframework.security.web.access.ExceptionTranslationFilter@35d81657]
+2017-11-16 11:11:04 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 11:11:05 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 11:11:05 [main] INFO  s.b.h.Application:57 - Started Application in 4.411 seconds (JVM running for 4.932)
+2017-11-16 11:11:11 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 11:12:52 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 11:12:52 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:11:01 CST 2017]; root of context hierarchy
+2017-11-16 11:12:52 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 11:12:52 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:12:56 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 1724 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 11:12:56 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 11:12:56 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:12:56 CST 2017]; root of context hierarchy
+2017-11-16 11:12:57 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 11:12:57 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 11:12:57 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 11:12:57 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 11:12:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:12:58 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 11:12:58 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 11:12:58 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 11:12:58 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 11:12:58 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 11:12:58 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 11:12:58 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 11:12:58 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:12:59 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$5e493a12:15 - 开始执行mvcConfig
+2017-11-16 11:12:59 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$3e02c62c:31 - 开始执行WebSecurityConfig
+2017-11-16 11:12:59 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 11:12:59 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d94ac8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@30ed4034, org.springframework.security.web.header.HeaderWriterFilter@4153a832, org.springframework.security.web.csrf.CsrfFilter@cb1c58c, org.springframework.security.web.authentication.logout.LogoutFilter@3b4f1eb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3180aee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77e6053, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fd97fd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@288b73c1, org.springframework.security.web.session.SessionManagementFilter@7b8d6c66, org.springframework.security.web.access.ExceptionTranslationFilter@3a917017, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7582a16b]
+2017-11-16 11:12:59 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@60fbc34d, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7736c41e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cfa7ee0, org.springframework.security.web.header.HeaderWriterFilter@72646d16, org.springframework.security.web.csrf.CsrfFilter@582ea164, org.springframework.security.web.authentication.logout.LogoutFilter@2f39b534, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@612290d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57cff804, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f911d24, org.springframework.security.web.session.SessionManagementFilter@6ec2d990, org.springframework.security.web.access.ExceptionTranslationFilter@3ac406d4]
+2017-11-16 11:12:59 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 11:13:00 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 11:13:00 [main] INFO  s.b.h.Application:57 - Started Application in 4.459 seconds (JVM running for 5.038)
+2017-11-16 11:13:10 [https-jsse-nio-1990-exec-8] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 11:13:51 [http-nio-8080-exec-1] INFO  o.a.c.h.Http11Processor:181 - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-16 11:17:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 11:17:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:12:56 CST 2017]; root of context hierarchy
+2017-11-16 11:17:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 11:17:13 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:17:17 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 5936 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 11:17:17 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 11:17:18 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:17:18 CST 2017]; root of context hierarchy
+2017-11-16 11:17:19 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (https)
+2017-11-16 11:17:19 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 11:17:19 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 11:17:19 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 11:17:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:17:19 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 11:17:19 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 11:17:19 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 11:17:19 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 11:17:19 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 11:17:19 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 11:17:20 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 11:17:20 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 11:17:20 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$4936fae5:15 - 开始执行mvcConfig
+2017-11-16 11:17:21 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$28f086ff:31 - 开始执行WebSecurityConfig
+2017-11-16 11:17:21 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 11:17:21 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18f4086e, org.springframework.security.web.context.SecurityContextPersistenceFilter@55317c63, org.springframework.security.web.header.HeaderWriterFilter@28a3fc34, org.springframework.security.web.csrf.CsrfFilter@2a20da9f, org.springframework.security.web.authentication.logout.LogoutFilter@3de383f7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53fc870f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42ef5216, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ec2d990, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43cbafa6, org.springframework.security.web.session.SessionManagementFilter@4dd752e8, org.springframework.security.web.access.ExceptionTranslationFilter@58ac0823, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@512dc0e0]
+2017-11-16 11:17:21 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@4b916cc2, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f5e9949, org.springframework.security.web.context.SecurityContextPersistenceFilter@631678e6, org.springframework.security.web.header.HeaderWriterFilter@4fc71437, org.springframework.security.web.csrf.CsrfFilter@42db955e, org.springframework.security.web.authentication.logout.LogoutFilter@1b10f60e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1344f7fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64d53f0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323eecf8, org.springframework.security.web.session.SessionManagementFilter@75c15f76, org.springframework.security.web.access.ExceptionTranslationFilter@33e8694b]
+2017-11-16 11:17:21 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 11:17:22 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (https)
+2017-11-16 11:17:22 [main] INFO  s.b.h.Application:57 - Started Application in 4.477 seconds (JVM running for 5.089)
+2017-11-16 11:17:26 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 11:58:30 [https-jsse-nio-1990-exec-6] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 11:58:30 [https-jsse-nio-1990-exec-6] INFO  o.h.h.i.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-16 14:25:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 14:25:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 11:17:18 CST 2017]; root of context hierarchy
+2017-11-16 14:25:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 14:25:56 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:41:10 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 6484 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 14:41:10 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 14:41:10 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:41:10 CST 2017]; root of context hierarchy
+2017-11-16 14:41:11 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 1990 (http)
+2017-11-16 14:41:11 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 14:41:11 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 14:41:11 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 14:41:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:41:12 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 14:41:12 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 14:41:12 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 14:41:12 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 14:41:12 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 14:41:12 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 14:41:13 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 14:41:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:41:14 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$b68422ba:15 - 开始执行mvcConfig
+2017-11-16 14:41:14 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$963daed4:31 - 开始执行WebSecurityConfig
+2017-11-16 14:41:14 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 14:41:15 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b9d1a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@6821c63c, org.springframework.security.web.header.HeaderWriterFilter@25c8c71e, org.springframework.security.web.csrf.CsrfFilter@69ac5752, org.springframework.security.web.authentication.logout.LogoutFilter@582ea164, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5ddf5118, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4790b897, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35d81657, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fcd3a6f, org.springframework.security.web.session.SessionManagementFilter@1a7a21d0, org.springframework.security.web.access.ExceptionTranslationFilter@16cb6f51, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f6bc75c]
+2017-11-16 14:41:15 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@538f45f1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64fc6470, org.springframework.security.web.context.SecurityContextPersistenceFilter@1760e688, org.springframework.security.web.header.HeaderWriterFilter@637506d8, org.springframework.security.web.csrf.CsrfFilter@7030b74c, org.springframework.security.web.authentication.logout.LogoutFilter@43cbafa6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53fc870f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18f4086e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cf3a7f9, org.springframework.security.web.session.SessionManagementFilter@5c60f096, org.springframework.security.web.access.ExceptionTranslationFilter@75063bd0]
+2017-11-16 14:41:15 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 14:41:15 [main] ERROR o.a.c.h.Http11NioProtocol:181 - Failed to initialize end point associated with ProtocolHandler ["http-nio-1990"]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:140)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at spring.boot.hello_world.Application.main(Application.java:18)
+2017-11-16 14:41:15 [main] ERROR o.a.c.c.StandardService:181 - Failed to start connector [Connector[HTTP/1.1-1990]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-1990]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:140)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at spring.boot.hello_world.Application.main(Application.java:18)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:982)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:620)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 14 common frames omitted
+2017-11-16 14:41:15 [main] INFO  o.a.c.c.StandardService:179 - Stopping service [Tomcat]
+2017-11-16 14:41:15 [main] WARN  o.a.c.u.LifecycleMBeanBase:181 - Failed to unregister MBean with name [Tomcat:type=Connector,port=1990] during component destruction
+javax.management.InstanceNotFoundException: Tomcat:type=Connector,port=1990
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getMBean(DefaultMBeanServerInterceptor.java:1095)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.exclusiveUnregisterMBean(DefaultMBeanServerInterceptor.java:427)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.unregisterMBean(DefaultMBeanServerInterceptor.java:415)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.unregisterMBean(JmxMBeanServer.java:546)
+	at org.apache.catalina.util.LifecycleMBeanBase.unregister(LifecycleMBeanBase.java:197)
+	at org.apache.catalina.util.LifecycleMBeanBase.destroyInternal(LifecycleMBeanBase.java:73)
+	at org.apache.catalina.connector.Connector.destroyInternal(Connector.java:1070)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:571)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:883)
+	at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:297)
+	at org.apache.catalina.startup.Tomcat.destroy(Tomcat.java:389)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.stop(TomcatEmbeddedServletContainer.java:296)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.stopAndReleaseEmbeddedServletContainer(EmbeddedWebApplicationContext.java:306)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:125)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:134)
+	at spring.boot.hello_world.Application.main(Application.java:18)
+2017-11-16 14:41:15 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-11-16 14:41:15 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 1990 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 1990, or configure this application to listen on another port.
+
+2017-11-16 14:41:15 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:41:10 CST 2017]; root of context hierarchy
+2017-11-16 14:41:15 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 14:41:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:42:29 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 5628 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 14:42:29 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 14:42:29 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:42:29 CST 2017]; root of context hierarchy
+2017-11-16 14:42:30 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 14:42:30 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 14:42:30 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 14:42:30 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 14:42:31 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 14:42:31 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:42:31 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 14:42:31 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 14:42:31 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 14:42:31 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 14:42:31 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 14:42:31 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 14:42:32 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 14:42:32 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:42:32 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$5b324e11:15 - 开始执行mvcConfig
+2017-11-16 14:42:33 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$3aebda2b:31 - 开始执行WebSecurityConfig
+2017-11-16 14:42:33 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 14:42:33 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42ef5216, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b8d6c66, org.springframework.security.web.header.HeaderWriterFilter@3a917017, org.springframework.security.web.csrf.CsrfFilter@40fcaae7, org.springframework.security.web.authentication.logout.LogoutFilter@391e85df, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35d81657, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30ed4034, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@85c3522, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3180aee, org.springframework.security.web.session.SessionManagementFilter@4153a832, org.springframework.security.web.access.ExceptionTranslationFilter@7944c323, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d705998]
+2017-11-16 14:42:33 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@57cff804, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f39b534, org.springframework.security.web.context.SecurityContextPersistenceFilter@72646d16, org.springframework.security.web.header.HeaderWriterFilter@174cb0d8, org.springframework.security.web.csrf.CsrfFilter@5340ccb9, org.springframework.security.web.authentication.logout.LogoutFilter@612290d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ec2d990, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cfa7ee0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60fbc34d, org.springframework.security.web.session.SessionManagementFilter@3ac406d4, org.springframework.security.web.access.ExceptionTranslationFilter@7abcc0da]
+2017-11-16 14:42:33 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 14:42:33 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 14:42:33 [main] INFO  s.b.h.Application:57 - Started Application in 4.525 seconds (JVM running for 5.021)
+2017-11-16 14:42:49 [http-nio-8080-exec-1] INFO  o.a.c.h.Http11Processor:181 - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-16 14:42:55 [https-jsse-nio-1990-exec-10] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 14:44:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 14:44:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:42:29 CST 2017]; root of context hierarchy
+2017-11-16 14:44:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 14:44:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:44:25 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 4596 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 14:44:25 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 14:44:26 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:44:26 CST 2017]; root of context hierarchy
+2017-11-16 14:44:27 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 14:44:27 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 14:44:27 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 14:44:27 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 14:44:27 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:44:27 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 14:44:27 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 14:44:27 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 14:44:27 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 14:44:27 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 14:44:28 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 14:44:28 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 14:44:28 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:44:29 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$6d92bbb9:15 - 开始执行mvcConfig
+2017-11-16 14:44:29 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$4d4c47d3:31 - 开始执行WebSecurityConfig
+2017-11-16 14:44:29 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 14:44:29 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@42ef5216, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b8d6c66, org.springframework.security.web.header.HeaderWriterFilter@3a917017, org.springframework.security.web.csrf.CsrfFilter@40fcaae7, org.springframework.security.web.authentication.logout.LogoutFilter@391e85df, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@35d81657, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30ed4034, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@85c3522, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3180aee, org.springframework.security.web.session.SessionManagementFilter@4153a832, org.springframework.security.web.access.ExceptionTranslationFilter@7944c323, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2d705998]
+2017-11-16 14:44:29 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@57cff804, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f39b534, org.springframework.security.web.context.SecurityContextPersistenceFilter@72646d16, org.springframework.security.web.header.HeaderWriterFilter@174cb0d8, org.springframework.security.web.csrf.CsrfFilter@5340ccb9, org.springframework.security.web.authentication.logout.LogoutFilter@612290d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ec2d990, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cfa7ee0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60fbc34d, org.springframework.security.web.session.SessionManagementFilter@3ac406d4, org.springframework.security.web.access.ExceptionTranslationFilter@7abcc0da]
+2017-11-16 14:44:29 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 14:44:30 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 14:44:30 [main] INFO  s.b.h.Application:57 - Started Application in 4.51 seconds (JVM running for 5.138)
+2017-11-16 14:45:14 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 14:46:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 14:46:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:44:26 CST 2017]; root of context hierarchy
+2017-11-16 14:46:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 14:46:15 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:46:19 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 3484 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 14:46:19 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 14:46:19 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:46:19 CST 2017]; root of context hierarchy
+2017-11-16 14:46:20 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 14:46:21 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 14:46:21 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 14:46:21 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 14:46:21 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:46:21 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 14:46:21 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 14:46:21 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 14:46:21 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 14:46:21 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 14:46:21 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 14:46:22 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 14:46:22 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 14:46:23 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$fd0c387a:15 - 开始执行mvcConfig
+2017-11-16 14:46:23 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$dcc5c494:31 - 开始执行WebSecurityConfig
+2017-11-16 14:46:23 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 14:46:23 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1760e688, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dd752e8, org.springframework.security.web.header.HeaderWriterFilter@58ac0823, org.springframework.security.web.csrf.CsrfFilter@7cd8831c, org.springframework.security.web.authentication.logout.LogoutFilter@7736c41e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c60f096, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55317c63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ac406d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53fc870f, org.springframework.security.web.session.SessionManagementFilter@28a3fc34, org.springframework.security.web.access.ExceptionTranslationFilter@fe156f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7030b74c]
+2017-11-16 14:46:23 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@64d53f0d, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b10f60e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4fc71437, org.springframework.security.web.header.HeaderWriterFilter@2d0778d0, org.springframework.security.web.csrf.CsrfFilter@64fc6470, org.springframework.security.web.authentication.logout.LogoutFilter@1344f7fe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75c15f76, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@631678e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b916cc2, org.springframework.security.web.session.SessionManagementFilter@33e8694b, org.springframework.security.web.access.ExceptionTranslationFilter@6c8ad6d7]
+2017-11-16 14:46:23 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 14:46:24 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 14:46:24 [main] INFO  s.b.h.Application:57 - Started Application in 4.643 seconds (JVM running for 5.248)
+2017-11-16 14:46:28 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 14:47:00 [https-jsse-nio-1990-exec-10] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 14:47:00 [https-jsse-nio-1990-exec-10] INFO  o.h.h.i.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-16 14:47:18 [https-jsse-nio-1990-exec-1] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:12:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 15:12:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 14:46:19 CST 2017]; root of context hierarchy
+2017-11-16 15:12:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 15:12:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:13:09 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 5284 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 15:13:09 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 15:13:09 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 15:13:09 CST 2017]; root of context hierarchy
+2017-11-16 15:13:10 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 15:13:10 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 15:13:10 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 15:13:10 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 15:13:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:13:11 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 15:13:11 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 15:13:11 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 15:13:11 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 15:13:11 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 15:13:11 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 15:13:11 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 15:13:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:13:12 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$d8c12446:15 - 开始执行mvcConfig
+2017-11-16 15:13:12 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$b87ab060:31 - 开始执行WebSecurityConfig
+2017-11-16 15:13:12 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 15:13:12 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ae0a26, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a7a21d0, org.springframework.security.web.header.HeaderWriterFilter@16cb6f51, org.springframework.security.web.csrf.CsrfFilter@5a58db42, org.springframework.security.web.authentication.logout.LogoutFilter@5340ccb9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22854f2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6821c63c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62c46e53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ddf5118, org.springframework.security.web.session.SessionManagementFilter@25c8c71e, org.springframework.security.web.access.ExceptionTranslationFilter@1f70bce5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b2c7186]
+2017-11-16 15:13:12 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@18f4086e, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43cbafa6, org.springframework.security.web.context.SecurityContextPersistenceFilter@637506d8, org.springframework.security.web.header.HeaderWriterFilter@f96654, org.springframework.security.web.csrf.CsrfFilter@5f35370b, org.springframework.security.web.authentication.logout.LogoutFilter@53fc870f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c60f096, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1760e688, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@538f45f1, org.springframework.security.web.session.SessionManagementFilter@75063bd0, org.springframework.security.web.access.ExceptionTranslationFilter@512dc0e0]
+2017-11-16 15:13:13 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 15:13:14 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 15:13:14 [main] INFO  s.b.h.Application:57 - Started Application in 5.28 seconds (JVM running for 6.035)
+2017-11-16 15:15:37 [https-jsse-nio-1990-exec-8] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 15:16:10 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 15:16:10 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 15:13:09 CST 2017]; root of context hierarchy
+2017-11-16 15:16:10 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 15:16:10 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:16:16 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 6356 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 15:16:16 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 15:16:17 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 15:16:17 CST 2017]; root of context hierarchy
+2017-11-16 15:16:18 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 15:16:18 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 15:16:18 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 15:16:18 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 15:16:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:16:18 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 15:16:18 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 15:16:18 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 15:16:18 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 15:16:18 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 15:16:18 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 15:16:19 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 15:16:19 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:16:20 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$b8b567f1:15 - 开始执行mvcConfig
+2017-11-16 15:16:20 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$986ef40b:31 - 开始执行WebSecurityConfig
+2017-11-16 15:16:20 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 15:16:20 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79b4cff, org.springframework.security.web.context.SecurityContextPersistenceFilter@1fd0ae78, org.springframework.security.web.header.HeaderWriterFilter@21c5c68a, org.springframework.security.web.csrf.CsrfFilter@6032622, org.springframework.security.web.authentication.logout.LogoutFilter@65930e02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@fe156f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f57666b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a21cbe7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58ac0823, org.springframework.security.web.session.SessionManagementFilter@2b0d85bd, org.springframework.security.web.access.ExceptionTranslationFilter@215a329c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6821c63c]
+2017-11-16 15:16:20 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@582ea164, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fccf49e, org.springframework.security.web.context.SecurityContextPersistenceFilter@288b73c1, org.springframework.security.web.header.HeaderWriterFilter@3180aee, org.springframework.security.web.csrf.CsrfFilter@4dd752e8, org.springframework.security.web.authentication.logout.LogoutFilter@2bc8caa7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@104cfb24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5340ccb9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7abcc0da, org.springframework.security.web.session.SessionManagementFilter@5d94ac8a, org.springframework.security.web.access.ExceptionTranslationFilter@42ef5216]
+2017-11-16 15:16:20 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 15:16:21 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 15:16:21 [main] INFO  s.b.h.Application:57 - Started Application in 4.421 seconds (JVM running for 5.028)
+2017-11-16 15:16:27 [https-jsse-nio-1990-exec-9] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 15:16:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 15:16:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 15:16:17 CST 2017]; root of context hierarchy
+2017-11-16 15:16:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 15:16:58 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:17:01 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 7016 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 15:17:01 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 15:17:01 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16eccb2e: startup date [Thu Nov 16 15:17:01 CST 2017]; root of context hierarchy
+2017-11-16 15:17:02 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 15:17:02 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 15:17:02 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 15:17:02 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 15:17:03 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 15:17:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:17:03 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 15:17:03 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 15:17:03 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 15:17:03 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 15:17:03 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 15:17:03 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 15:17:03 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 15:17:04 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:17:04 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$16814ddd:15 - 开始执行mvcConfig
+2017-11-16 15:17:05 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$f63ad9f7:31 - 开始执行WebSecurityConfig
+2017-11-16 15:17:05 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 15:17:05 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d94ac8a, org.springframework.security.web.context.SecurityContextPersistenceFilter@30ed4034, org.springframework.security.web.header.HeaderWriterFilter@4153a832, org.springframework.security.web.csrf.CsrfFilter@cb1c58c, org.springframework.security.web.authentication.logout.LogoutFilter@3b4f1eb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3180aee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77e6053, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6fd97fd1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@288b73c1, org.springframework.security.web.session.SessionManagementFilter@7b8d6c66, org.springframework.security.web.access.ExceptionTranslationFilter@3a917017, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7582a16b]
+2017-11-16 15:17:05 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@60fbc34d, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7736c41e, org.springframework.security.web.context.SecurityContextPersistenceFilter@1cfa7ee0, org.springframework.security.web.header.HeaderWriterFilter@72646d16, org.springframework.security.web.csrf.CsrfFilter@582ea164, org.springframework.security.web.authentication.logout.LogoutFilter@2f39b534, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@612290d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57cff804, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f911d24, org.springframework.security.web.session.SessionManagementFilter@6ec2d990, org.springframework.security.web.access.ExceptionTranslationFilter@3ac406d4]
+2017-11-16 15:17:05 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 15:17:05 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 15:17:05 [main] INFO  s.b.h.Application:57 - Started Application in 4.409 seconds (JVM running for 5.018)
+2017-11-16 15:17:13 [https-jsse-nio-1990-exec-8] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 15:26:32 [http-nio-8080-exec-1] INFO  o.a.c.h.Http11Processor:181 - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-16 15:26:32 [http-nio-8080-exec-2] INFO  o.a.c.h.Http11Processor:181 - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2017-11-16 15:34:40 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 15:34:40 [RMI TCP Connection(3)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:125 - Application shutdown requested.
+2017-11-16 15:34:40 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@16eccb2e: startup date [Thu Nov 16 15:17:01 CST 2017]; root of context hierarchy
+2017-11-16 15:34:40 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+2017-11-16 15:34:40 [RMI TCP Connection(4)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:548 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:36:10 [main] INFO  s.b.h.Application:48 - Starting Application on SHA-Q04260096 with PID 2776 (E:\dpap\workspaces\myProject\hello-world\target\classes started by 337084 in E:\dpap\workspaces\myProject\hello-world)
+2017-11-16 15:36:10 [main] INFO  s.b.h.Application:593 - No active profile set, falling back to default profiles: default
+2017-11-16 15:36:11 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef5c734: startup date [Thu Nov 16 15:36:11 CST 2017]; root of context hierarchy
+2017-11-16 15:36:32 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 1990 (https) 8080 (http)
+2017-11-16 15:36:32 [main] INFO  o.a.c.c.StandardService:179 - Starting service [Tomcat]
+2017-11-16 15:36:32 [main] INFO  o.a.c.c.StandardEngine:179 - Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring embedded WebApplicationContext
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.DelegatingFilterProxyRegistrationBean:258 - Mapping filter: 'springSecurityFilterChain' to: [/*]
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-11-16 15:36:33 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean:190 - Mapping servlet: 'webServlet' to [/h2-console/*]
+2017-11-16 15:36:53 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:36:53 [main] INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-11-16 15:36:53 [main] INFO  o.h.Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-11-16 15:36:53 [main] INFO  o.h.c.Environment:213 - HHH000206: hibernate.properties not found
+2017-11-16 15:36:53 [main] INFO  o.h.c.Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-11-16 15:36:53 [main] INFO  o.h.a.c.Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-11-16 15:36:53 [main] INFO  o.h.d.Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-11-16 15:36:54 [main] INFO  o.h.t.h.SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-11-16 15:36:55 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-11-16 15:36:56 [main] INFO  s.b.h.f.s.WebMvcConfig$$EnhancerBySpringCGLIB$$16814ddd:15 - 开始执行mvcConfig
+2017-11-16 15:36:57 [main] INFO  s.b.h.f.s.WebSecurityConfig$$EnhancerBySpringCGLIB$$f63ad9f7:31 - 开始执行WebSecurityConfig
+2017-11-16 15:36:57 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2017-11-16 15:36:57 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10e4ee33, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cfab340, org.springframework.security.web.header.HeaderWriterFilter@234ce7ff, org.springframework.security.web.csrf.CsrfFilter@40cb95c1, org.springframework.security.web.authentication.logout.LogoutFilter@323b0632, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61c58320, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3387ab0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3df6494f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e90cec8, org.springframework.security.web.session.SessionManagementFilter@780a91d0, org.springframework.security.web.access.ExceptionTranslationFilter@10a064bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@9746157]
+2017-11-16 15:36:57 [main] INFO  o.s.s.w.DefaultSecurityFilterChain:43 - Creating filter chain: org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$ApplicationNoWebSecurityConfigurerAdapter$1@706d2bae, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3205610d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d3d4a54, org.springframework.security.web.header.HeaderWriterFilter@7cbede2b, org.springframework.security.web.csrf.CsrfFilter@14c5283, org.springframework.security.web.authentication.logout.LogoutFilter@37c5b8e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@215c6ec0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b19b346, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54e06788, org.springframework.security.web.session.SessionManagementFilter@1ef04613, org.springframework.security.web.access.ExceptionTranslationFilter@5d4a34ff]
+2017-11-16 15:36:57 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-11-16 15:36:58 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 1990 (https) 8080 (http)
+2017-11-16 15:36:58 [main] INFO  s.b.h.Application:57 - Started Application in 50.264 seconds (JVM running for 58.772)
+2017-11-16 15:37:06 [https-jsse-nio-1990-exec-2] INFO  o.a.c.c.C.[.[.[/]:179 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-16 15:37:46 [https-jsse-nio-1990-exec-10] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:37:46 [https-jsse-nio-1990-exec-10] INFO  o.h.h.i.QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2017-11-16 15:38:18 [https-jsse-nio-1990-exec-5] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:38:28 [https-jsse-nio-1990-exec-7] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:40:34 [https-jsse-nio-1990-exec-9] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:41:03 [https-jsse-nio-1990-exec-10] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:42:00 [https-jsse-nio-1990-exec-7] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:42:05 [https-jsse-nio-1990-exec-1] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:42:12 [https-jsse-nio-1990-exec-4] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:42:19 [https-jsse-nio-1990-exec-1] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 15:42:41 [https-jsse-nio-1990-exec-5] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:00:08 [https-jsse-nio-1990-exec-6] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:01:55 [https-jsse-nio-1990-exec-4] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:02:02 [https-jsse-nio-1990-exec-9] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:02:11 [https-jsse-nio-1990-exec-3] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:02:19 [https-jsse-nio-1990-exec-4] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:02:46 [https-jsse-nio-1990-exec-9] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:24:50 [https-jsse-nio-1990-exec-3] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:25:26 [https-jsse-nio-1990-exec-6] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:26:42 [https-jsse-nio-1990-exec-5] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息
+2017-11-16 16:27:18 [https-jsse-nio-1990-exec-5] INFO  s.b.h.m.s.CustomUserService:20 - 开始查询用户信息

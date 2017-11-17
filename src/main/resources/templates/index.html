@@ -27,6 +27,9 @@
                 <li><a th:href="@{http://www.baidu.com}">百度</a></li>
             </ul>
         </div>
+        <div sec:authorize="hasRole('ROLE_ADMIN')">
+				<a target="_blank" th:href="@{/logs/hello.log}">查看日志</a>
+		</div>
     </div>
 </nav>
 <div class="container">
@@ -36,7 +39,7 @@
         <div sec:authorize="hasRole('ROLE_ADMIN')">
             <p class="bg-info" th:text="${msg.extraInfo}"></p>
         </div>
-        <div sec:authorize="hasRole('ROLE_USER')">
+		<div sec:authorize="hasRole('ROLE_USER')">
             <p class="bg-info">无更多显示信息</p>
         </div>
         <form th:action="@{/logout}" method="post">

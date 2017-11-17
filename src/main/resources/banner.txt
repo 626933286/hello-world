@@ -5,7 +5,7 @@
 |___|  /\___  >____/____/\____/    \/\_/ \____/|__|  |____/\____ | 
      \/     \/                                                  \/
      
-******************** Welcome to Dpwc ********************
+******************** Welcome to hello world ********************
 Dpwc Version: ${application.version:1.0}
 Java Home: ${java.home}
 Java Vendor: ${java.vendor}

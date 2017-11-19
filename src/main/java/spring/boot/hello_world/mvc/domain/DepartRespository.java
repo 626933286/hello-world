@@ -8,10 +8,10 @@ import org.springframework.data.jpa.repository.JpaRepository;
 @CacheConfig(cacheNames = "department")
 public interface DepartRespository extends JpaRepository<Department, Long>{
     
-    @Cacheable(key = "#p0")
+    @Cacheable
     Department findByDeptCode(String deptCode);
     
-    @CachePut(key = "#p0.name")
+//    @CachePut(key = "#p0.name")
     Department save(Department department);
     
 }

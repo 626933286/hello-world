@@ -1,4 +1,4 @@
-package spring.boot.hello_world;
+/*package spring.boot.hello_world;
 
 import org.apache.catalina.connector.Connector;
 import org.springframework.boot.Banner;
@@ -9,13 +9,13 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication(exclude = {WebClientAutoConfiguration.class})
-public class Application2 /*extends AbstractApplication*/{
+public class Application2 extends AbstractApplication{
     public static void main(String[] args) {
 //        new SpringApplicationBuilder(Application2.class,"--server.port=1991").bannerMode(Banner.Mode.CONSOLE).run(args);
         SpringApplication.run(Application2.class, "--server.port=1991");
     }
 
-   /* @Bean
+    @Bean
     @Override
     public Connector httpConnector() {
         Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
@@ -26,5 +26,6 @@ public class Application2 /*extends AbstractApplication*/{
         // 监听到http的端口号后转向到的https的端口号
         connector.setRedirectPort(1991);
         return connector;
-    }*/
+    }
 }
+*/

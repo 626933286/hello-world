@@ -20,7 +20,7 @@ public class ApplicationTests {
     @Autowired
     private DepartRespository departRepository;;
 
-    @Before
+   /* @Before
     public void before() {
         Department department = new Department();
         department.setDeptCode("OMS");
@@ -29,7 +29,7 @@ public class ApplicationTests {
         department.setNum(Long.valueOf(20));
         department.setLeader("张三");
         departRepository.save(department);
-    }
+    }*/
 
     @Test
     public void test() throws Exception {

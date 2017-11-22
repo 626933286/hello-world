@@ -5,20 +5,18 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cache.CacheManager;
+//import org.springframework.cache.CacheManager;
 import org.springframework.test.context.junit4.SpringRunner;
 import spring.boot.hello_world.mvc.domain.DepartRespository;
 import spring.boot.hello_world.mvc.domain.Department;
 
-//@RunWith(SpringJUnit4ClassRunner.class)
-//@SpringApplicationConfiguration(Application1.class)
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ApplicationTests {
+public class CustomUserTest {
+//    @Autowired
+//    private CacheManager cacheManager;
     @Autowired
-    private CacheManager cacheManager;
-    @Autowired
-    private DepartRespository departRepository;;
+    private DepartRespository departRepository;
 
    /* @Before
     public void before() {
